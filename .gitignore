@@ -1,0 +1,12 @@
+impress/shared_library/rust_demo/build.log
+impress/MODULE.bazel.lock
+impress/bazel-bin
+impress/bazel-imp
+impress/bazel-out
+impress/bazel-testlogs
+impress/bazel-impress
+impress/bazel_to_soong_headers/
+impress/__pycache__/
+impress/shared_library/rust_demo/target/
+impress/shared_library/exports.lds
+impress/shared_library/impress_headers/

@@ -116,6 +116,8 @@ build:android_arm64 --config=android_arm64-v8a
 build -c opt
 build --define=IMP_INCLUDE_STEREO_VARIANT_BY_DEFAULT=1
 build --copt=-D_LIBCPP_ABI_NAMESPACE=__1
+build:linux_libstdc++ --cxxopt=-stdlib=libstdc++
+build:linux_libstdc++ --linkopt=-stdlib=libstdc++
 build --define=IMP_EMBED_ASSETS=1
 build --define=IMP_ANDROID_EXTERNAL_TEXTURE_SURFACE_USES_IMAGE_READER=1
 build --define=FILAMENT_USES_OPENGL_GLES3=1
